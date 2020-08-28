@@ -337,6 +337,8 @@ func gen1(frunName, tmplStr string, tv interface{}) (frun *os.File, err error) {
 	return
 }
 
+
+//update20200828
 // copied from ../gen.go (keep in sync).
 func stripVendor(s string) string {
 	// HACK: Misbehaviour occurs in go 1.5. May have to re-visit this later.
