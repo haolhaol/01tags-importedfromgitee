@@ -353,6 +353,7 @@ func stripVendor(s string) string {
 	return s
 }
 
+
 func main() {
 	o := flag.String("o", "", "out file")
 	c := flag.String("c", genCodecPath, "codec path")
